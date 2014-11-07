@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6338ABD01A0BB43400166042 /* EggView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338ABCF1A0BB43400166042 /* EggView.m */; };
+		6338ABD31A0BBE8C00166042 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6338ABD11A0BBE6400166042 /* License.txt */; };
+		636EEA4D18C2826300CC92A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636EEA4C18C2826300CC92A4 /* Cocoa.framework */; };
+		636EEA5718C2826300CC92A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 636EEA5518C2826300CC92A4 /* InfoPlist.strings */; };
+		636EEA5918C2826300CC92A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA5818C2826300CC92A4 /* main.m */; };
+		636EEA5D18C2826300CC92A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 636EEA5B18C2826300CC92A4 /* Credits.rtf */; };
+		636EEA6018C2826300CC92A4 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA5F18C2826300CC92A4 /* Document.m */; };
+		636EEA6318C2826300CC92A4 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636EEA6118C2826300CC92A4 /* Document.xib */; };
+		636EEA6618C2826300CC92A4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636EEA6418C2826300CC92A4 /* MainMenu.xib */; };
+		636EEA9718C288F900CC92A4 /* BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA8518C288F900CC92A4 /* BezierPath.m */; };
+		636EEA9918C288F900CC92A4 /* GraphicsContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA8818C288F900CC92A4 /* GraphicsContext.m */; };
+		636EEA9A18C288F900CC92A4 /* Arch2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA8A18C288F900CC92A4 /* Arch2View.m */; };
+		636EEA9C18C288F900CC92A4 /* CardViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA8C18C288F900CC92A4 /* CardViewBase.m */; };
+		636EEA9E18C288F900CC92A4 /* CircularConstruction1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA8E18C288F900CC92A4 /* CircularConstruction1View.m */; };
+		636EEAA018C288F900CC92A4 /* CutViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9118C288F900CC92A4 /* CutViewBase.m */; };
+		636EEAA218C288F900CC92A4 /* HarvardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9318C288F900CC92A4 /* HarvardView.m */; };
+		636EEAA318C288F900CC92A4 /* Jigsaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9418C288F900CC92A4 /* Jigsaw.m */; };
+		636EEAA418C288F900CC92A4 /* Teardrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9518C288F900CC92A4 /* Teardrop.m */; };
+		636EEAA718C2893E00CC92A4 /* CutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEAA618C2893E00CC92A4 /* CutView.m */; };
+		63CB420B18C3F1C200DD2685 /* BlocksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB420A18C3F1C200DD2685 /* BlocksView.m */; };
+		63CB420E18C3F29300DD2685 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB420D18C3F29300DD2685 /* Utils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6338ABCF1A0BB43400166042 /* EggView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EggView.m; sourceTree = "<group>"; };
+		6338ABD11A0BBE6400166042 /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		636EEA4918C2826300CC92A4 /* Cutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636EEA4C18C2826300CC92A4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		636EEA4F18C2826300CC92A4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		636EEA5018C2826300CC92A4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		636EEA5118C2826300CC92A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		636EEA5418C2826300CC92A4 /* Cutter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cutter-Info.plist"; sourceTree = "<group>"; };
+		636EEA5618C2826300CC92A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		636EEA5818C2826300CC92A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		636EEA5A18C2826300CC92A4 /* Cutter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cutter-Prefix.pch"; sourceTree = "<group>"; };
+		636EEA5C18C2826300CC92A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		636EEA5E18C2826300CC92A4 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		636EEA5F18C2826300CC92A4 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		636EEA6218C2826300CC92A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		636EEA6518C2826300CC92A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		636EEA6E18C2826300CC92A4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		636EEA8418C288F900CC92A4 /* BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPath.h; sourceTree = "<group>"; };
+		636EEA8518C288F900CC92A4 /* BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPath.m; sourceTree = "<group>"; };
+		636EEA8718C288F900CC92A4 /* GraphicsContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsContext.h; sourceTree = "<group>"; };
+		636EEA8818C288F900CC92A4 /* GraphicsContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsContext.m; sourceTree = "<group>"; };
+		636EEA8A18C288F900CC92A4 /* Arch2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arch2View.m; sourceTree = "<group>"; };
+		636EEA8C18C288F900CC92A4 /* CardViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewBase.m; sourceTree = "<group>"; };
+		636EEA8E18C288F900CC92A4 /* CircularConstruction1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularConstruction1View.m; sourceTree = "<group>"; };
+		636EEA9018C288F900CC92A4 /* CutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CutView.h; sourceTree = "<group>"; };
+		636EEA9118C288F900CC92A4 /* CutViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutViewBase.m; sourceTree = "<group>"; };
+		636EEA9318C288F900CC92A4 /* HarvardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarvardView.m; sourceTree = "<group>"; };
+		636EEA9418C288F900CC92A4 /* Jigsaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jigsaw.m; sourceTree = "<group>"; };
+		636EEA9518C288F900CC92A4 /* Teardrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teardrop.m; sourceTree = "<group>"; };
+		636EEAA618C2893E00CC92A4 /* CutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutView.m; sourceTree = "<group>"; };
+		63CB420A18C3F1C200DD2685 /* BlocksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksView.m; sourceTree = "<group>"; };
+		63CB420C18C3F29300DD2685 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		63CB420D18C3F29300DD2685 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636EEA4618C2826200CC92A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EEA4D18C2826300CC92A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636EEA4018C2826200CC92A4 = {
+			isa = PBXGroup;
+			children = (
+				6338ABD11A0BBE6400166042 /* License.txt */,
+				636EEA5218C2826300CC92A4 /* Cutter */,
+				636EEA4B18C2826300CC92A4 /* Frameworks */,
+				636EEA4A18C2826300CC92A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636EEA4A18C2826300CC92A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA4918C2826300CC92A4 /* Cutter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636EEA4B18C2826300CC92A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA4C18C2826300CC92A4 /* Cocoa.framework */,
+				636EEA6E18C2826300CC92A4 /* XCTest.framework */,
+				636EEA4E18C2826300CC92A4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		636EEA4E18C2826300CC92A4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA4F18C2826300CC92A4 /* AppKit.framework */,
+				636EEA5018C2826300CC92A4 /* CoreData.framework */,
+				636EEA5118C2826300CC92A4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		636EEA5218C2826300CC92A4 /* Cutter */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA5E18C2826300CC92A4 /* Document.h */,
+				636EEA5F18C2826300CC92A4 /* Document.m */,
+				63CB420C18C3F29300DD2685 /* Utils.h */,
+				63CB420D18C3F29300DD2685 /* Utils.m */,
+				636EEA8318C288F900CC92A4 /* BezierGraphics */,
+				636EEA8918C288F900CC92A4 /* CutViews */,
+				636EEA6118C2826300CC92A4 /* Document.xib */,
+				636EEA6418C2826300CC92A4 /* MainMenu.xib */,
+				636EEA5318C2826300CC92A4 /* Supporting Files */,
+			);
+			path = Cutter;
+			sourceTree = "<group>";
+		};
+		636EEA5318C2826300CC92A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA5418C2826300CC92A4 /* Cutter-Info.plist */,
+				636EEA5518C2826300CC92A4 /* InfoPlist.strings */,
+				636EEA5818C2826300CC92A4 /* main.m */,
+				636EEA5A18C2826300CC92A4 /* Cutter-Prefix.pch */,
+				636EEA5B18C2826300CC92A4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636EEA8318C288F900CC92A4 /* BezierGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA8418C288F900CC92A4 /* BezierPath.h */,
+				636EEA8518C288F900CC92A4 /* BezierPath.m */,
+				636EEA8718C288F900CC92A4 /* GraphicsContext.h */,
+				636EEA8818C288F900CC92A4 /* GraphicsContext.m */,
+			);
+			path = BezierGraphics;
+			sourceTree = "<group>";
+		};
+		636EEA8918C288F900CC92A4 /* CutViews */ = {
+			isa = PBXGroup;
+			children = (
+				636EEA8A18C288F900CC92A4 /* Arch2View.m */,
+				63CB420A18C3F1C200DD2685 /* BlocksView.m */,
+				636EEA8C18C288F900CC92A4 /* CardViewBase.m */,
+				636EEA8E18C288F900CC92A4 /* CircularConstruction1View.m */,
+				636EEA9018C288F900CC92A4 /* CutView.h */,
+				636EEAA618C2893E00CC92A4 /* CutView.m */,
+				636EEA9118C288F900CC92A4 /* CutViewBase.m */,
+				6338ABCF1A0BB43400166042 /* EggView.m */,
+				636EEA9318C288F900CC92A4 /* HarvardView.m */,
+				636EEA9418C288F900CC92A4 /* Jigsaw.m */,
+				636EEA9518C288F900CC92A4 /* Teardrop.m */,
+			);
+			path = CutViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636EEA4818C2826200CC92A4 /* Cutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636EEA7D18C2826300CC92A4 /* Build configuration list for PBXNativeTarget "Cutter" */;
+			buildPhases = (
+				636EEA4518C2826200CC92A4 /* Sources */,
+				636EEA4618C2826200CC92A4 /* Frameworks */,
+				636EEA4718C2826200CC92A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cutter;
+			productName = Cutter;
+			productReference = 636EEA4918C2826300CC92A4 /* Cutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636EEA4118C2826200CC92A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Phillip Oster";
+			};
+			buildConfigurationList = 636EEA4418C2826200CC92A4 /* Build configuration list for PBXProject "Cutter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636EEA4018C2826200CC92A4;
+			productRefGroup = 636EEA4A18C2826300CC92A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636EEA4818C2826200CC92A4 /* Cutter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636EEA4718C2826200CC92A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EEA6318C2826300CC92A4 /* Document.xib in Resources */,
+				6338ABD31A0BBE8C00166042 /* License.txt in Resources */,
+				636EEA5718C2826300CC92A4 /* InfoPlist.strings in Resources */,
+				636EEA5D18C2826300CC92A4 /* Credits.rtf in Resources */,
+				636EEA6618C2826300CC92A4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636EEA4518C2826200CC92A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636EEAA318C288F900CC92A4 /* Jigsaw.m in Sources */,
+				636EEA9718C288F900CC92A4 /* BezierPath.m in Sources */,
+				636EEA9E18C288F900CC92A4 /* CircularConstruction1View.m in Sources */,
+				636EEAA218C288F900CC92A4 /* HarvardView.m in Sources */,
+				636EEA6018C2826300CC92A4 /* Document.m in Sources */,
+				63CB420E18C3F29300DD2685 /* Utils.m in Sources */,
+				63CB420B18C3F1C200DD2685 /* BlocksView.m in Sources */,
+				636EEAA418C288F900CC92A4 /* Teardrop.m in Sources */,
+				636EEA9A18C288F900CC92A4 /* Arch2View.m in Sources */,
+				6338ABD01A0BB43400166042 /* EggView.m in Sources */,
+				636EEAA018C288F900CC92A4 /* CutViewBase.m in Sources */,
+				636EEA9C18C288F900CC92A4 /* CardViewBase.m in Sources */,
+				636EEA9918C288F900CC92A4 /* GraphicsContext.m in Sources */,
+				636EEAA718C2893E00CC92A4 /* CutView.m in Sources */,
+				636EEA5918C2826300CC92A4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		636EEA5518C2826300CC92A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636EEA5618C2826300CC92A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		636EEA5B18C2826300CC92A4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636EEA5C18C2826300CC92A4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		636EEA6118C2826300CC92A4 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636EEA6218C2826300CC92A4 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		636EEA6418C2826300CC92A4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636EEA6518C2826300CC92A4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636EEA7B18C2826300CC92A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		636EEA7C18C2826300CC92A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		636EEA7E18C2826300CC92A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cutter/Cutter-Prefix.pch";
+				INFOPLIST_FILE = "Cutter/Cutter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		636EEA7F18C2826300CC92A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cutter/Cutter-Prefix.pch";
+				INFOPLIST_FILE = "Cutter/Cutter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636EEA4418C2826200CC92A4 /* Build configuration list for PBXProject "Cutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EEA7B18C2826300CC92A4 /* Debug */,
+				636EEA7C18C2826300CC92A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636EEA7D18C2826300CC92A4 /* Build configuration list for PBXNativeTarget "Cutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636EEA7E18C2826300CC92A4 /* Debug */,
+				636EEA7F18C2826300CC92A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636EEA4118C2826200CC92A4 /* Project object */;
+}
