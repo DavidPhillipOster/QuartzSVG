@@ -81,8 +81,8 @@ static BOOL PointsAreEqual(NSPoint a, NSPoint b) {
   float r = _p2.x;
   float t = _p1.y;
   float b = _p2.y;
-  float w = l - r;
-  float h = b - t;
+  float w = fabs(l - r);
+  float h = fabs(b - t);
   return [NSString stringWithFormat:@"M%g %g A%g %g 180 1,0 %g %g A%g %g 180 1,0 %g %g z",
     l, t+h/2, w/2, h/2, r, t+h/2, w/2, h/2, l, t+h/2];
   }
@@ -103,7 +103,7 @@ static BOOL PointsAreEqual(NSPoint a, NSPoint b) {
 - (NSString *)asSVG {
   float ex = _p.x + _radius * cos(_endAngle * M_PI/180.);
   float ey = _p.y + _radius * sin(_endAngle * M_PI/180.);
-  return [NSString stringWithFormat:@"A%g %g 0 1 %d %g %g", _radius, _radius, ! _isClockwise, ex, ey];
+  return [NSString stringWithFormat:@"A%g %g 0 0 %d %g %g", _radius, _radius, !_isClockwise, ex, ey];
 }
 @end
 
@@ -352,7 +352,7 @@ BCommand *Command3(NSString *verb, NSPoint p1, NSPoint p2, NSPoint p3) {
 
 - (void)closePath {
   [_path closePath];
-  [_commands addObject:Command0(NSStringFromSelector(_cmd))];
+  [_commands addObject:Command0(@"z")];
 }
 
 - (NSString *)asSVGWithAttributes:(NSString *)attributes {

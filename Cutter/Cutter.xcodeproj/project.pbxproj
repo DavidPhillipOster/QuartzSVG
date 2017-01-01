@@ -26,6 +26,8 @@
 		636EEAA318C288F900CC92A4 /* Jigsaw.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9418C288F900CC92A4 /* Jigsaw.m */; };
 		636EEAA418C288F900CC92A4 /* Teardrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEA9518C288F900CC92A4 /* Teardrop.m */; };
 		636EEAA718C2893E00CC92A4 /* CutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 636EEAA618C2893E00CC92A4 /* CutView.m */; };
+		63BD75241E187FAC008DF5A2 /* Alchemist.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD75231E187FAC008DF5A2 /* Alchemist.m */; };
+		63BD75271E187FBA008DF5A2 /* GraphicsMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BD75261E187FBA008DF5A2 /* GraphicsMath.m */; };
 		63CB420B18C3F1C200DD2685 /* BlocksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB420A18C3F1C200DD2685 /* BlocksView.m */; };
 		63CB420E18C3F29300DD2685 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB420D18C3F29300DD2685 /* Utils.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +63,9 @@
 		636EEA9418C288F900CC92A4 /* Jigsaw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jigsaw.m; sourceTree = "<group>"; };
 		636EEA9518C288F900CC92A4 /* Teardrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teardrop.m; sourceTree = "<group>"; };
 		636EEAA618C2893E00CC92A4 /* CutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CutView.m; sourceTree = "<group>"; };
+		63BD75231E187FAC008DF5A2 /* Alchemist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alchemist.m; sourceTree = "<group>"; };
+		63BD75251E187FBA008DF5A2 /* GraphicsMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsMath.h; sourceTree = "<group>"; };
+		63BD75261E187FBA008DF5A2 /* GraphicsMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsMath.m; sourceTree = "<group>"; };
 		63CB420A18C3F1C200DD2685 /* BlocksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksView.m; sourceTree = "<group>"; };
 		63CB420C18C3F29300DD2685 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		63CB420D18C3F29300DD2685 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
@@ -151,6 +156,8 @@
 				636EEA8518C288F900CC92A4 /* BezierPath.m */,
 				636EEA8718C288F900CC92A4 /* GraphicsContext.h */,
 				636EEA8818C288F900CC92A4 /* GraphicsContext.m */,
+				63BD75251E187FBA008DF5A2 /* GraphicsMath.h */,
+				63BD75261E187FBA008DF5A2 /* GraphicsMath.m */,
 			);
 			path = BezierGraphics;
 			sourceTree = "<group>";
@@ -158,6 +165,7 @@
 		636EEA8918C288F900CC92A4 /* CutViews */ = {
 			isa = PBXGroup;
 			children = (
+				63BD75231E187FAC008DF5A2 /* Alchemist.m */,
 				636EEA8A18C288F900CC92A4 /* Arch2View.m */,
 				63CB420A18C3F1C200DD2685 /* BlocksView.m */,
 				636EEA8C18C288F900CC92A4 /* CardViewBase.m */,
@@ -240,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BD75241E187FAC008DF5A2 /* Alchemist.m in Sources */,
 				636EEAA318C288F900CC92A4 /* Jigsaw.m in Sources */,
 				636EEA9718C288F900CC92A4 /* BezierPath.m in Sources */,
 				636EEA9E18C288F900CC92A4 /* CircularConstruction1View.m in Sources */,
@@ -254,6 +263,7 @@
 				636EEA9C18C288F900CC92A4 /* CardViewBase.m in Sources */,
 				636EEA9918C288F900CC92A4 /* GraphicsContext.m in Sources */,
 				636EEAA718C2893E00CC92A4 /* CutView.m in Sources */,
+				63BD75271E187FBA008DF5A2 /* GraphicsMath.m in Sources */,
 				636EEA5918C2826300CC92A4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
